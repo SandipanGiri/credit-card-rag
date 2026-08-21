@@ -4,7 +4,7 @@ from services.upload_services import upload_document
 from fastapi import APIRouter, HTTPException, status, UploadFile, File
 from src.api.v1.services.upload_services import ingest_file_service
 
-router = APIRouter(prefix="/api/v1/documents")
+router = APIRouter(prefix="/api/v1/upload")
 
 
 @router.post("/", status_code=status.HTTP_201_CREATED)

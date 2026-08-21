@@ -54,13 +54,13 @@ except Exception:  # pragma: no cover - import path varies by version
 
 # Presidio entity labels that the PII validator will redact from answers.
 PII_ENTITIES = [
-    "EMAIL_ADDRESS",
-    "PHONE_NUMBER",
-    "PERSON",
+    # "EMAIL_ADDRESS",
+    # "PHONE_NUMBER",
+    # "PERSON",
     # CREDIT_CARD",
-    "US_SSN",
-    "IBAN_CODE",
-    "IP_ADDRESS",
+    # "US_SSN",
+    # "IBAN_CODE",
+    # "IP_ADDRESS",
 ]
 
 
