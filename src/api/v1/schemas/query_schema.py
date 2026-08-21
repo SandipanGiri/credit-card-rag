@@ -13,6 +13,7 @@ class ImageResult(BaseModel):
     source_file: Optional[str] = None
     mime_type: Optional[str] = None
     image_base64: Optional[str] = None
+    page_number: int | None = None
 
 
 class EvaluationResult(BaseModel):

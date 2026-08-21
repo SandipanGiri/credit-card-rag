@@ -21,3 +21,4 @@ class RAGState(TypedDict):
     memory: List[str]
     context: str
     answer: str
+    intent: str

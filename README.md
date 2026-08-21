@@ -1,5 +1,12 @@
-# credit-card-rag
+# capstone2_cc_spend
 
+
+# guardrails configure
+# guardrails hub install hub://guardrails/guardrails_pii
+# guardrails hub install hub://guardrails/toxic_language
+
+
+# https://guardrailsai.com/hub
 ## to run the API from project root directory
 ## activate the venv
 ##    windows: .venv\Scripts\activate
